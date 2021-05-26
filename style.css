@@ -1,0 +1,248 @@
+
+body,html {
+    margin:0;
+    padding:0;
+}
+
+.container {
+    font-family: PopuLato, "Helvetica Neue", Helvetica, sans-serif;;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(17,17,17);
+    font-size: 13px;
+}
+
+.nav_left a{
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(122,122,122);
+}
+
+.nav_left a:hover {
+    color: white;
+    transition: color 0.25s ease-in-out;
+}
+
+.nav_left {
+    margin: 13px;
+}
+
+.header {
+    background-color: rgb(0,72,120);
+    max-height: 100px;
+}
+
+.header img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.header_top {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.header_top h2 {
+    position: relative;
+    left: 5px;
+    cursor: default;
+}
+
+.header_bottom {
+    display: flex;
+    flex-direction: row;
+    color: rgb(188,207,220);
+    position: relative;
+    bottom: 15px;
+}
+
+.header_bottom h5 {
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.header_bottom h5:hover {
+    border-bottom: solid 2px white;
+    transition: ease-in-out 100ms;
+}
+
+.pic {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.pic a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+}
+
+.time span {
+    position: relative;
+    top: 13px;
+    padding-right: 5px;
+}
+
+.main_content span {
+    position: relative;
+    left: 800px;
+    bottom: 285px;
+}
+
+.main_content {
+    position: relative;
+    left: 250px;
+    bottom: 300px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+}
+
+.options p {
+    margin-right: 15px;
+    color: rgb(102,102,102);
+    cursor: pointer;
+}
+
+#director {
+    position: relative;
+    bottom: 10px;
+}
+
+.different {
+    background-color: rgb(238,238,238);
+    width: 100%;
+}
+
+.following {
+    display: flex;
+    flex-direction: row;
+}
+
+.following a {
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.following a:hover {
+    text-decoration: underline;
+}
+
+.following p {
+    text-align: left;
+    position: relative;
+    left: 5px;
+}
+
+.main_container_right {
+    position: relative;
+    left: 1050px;
+    bottom: 190px;
+}
+
+.bottom ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom li {
+    padding: 5px;
+    font-size: 13px;
+    list-style: none;
+    color: rgb(108,108,108)
+}
+
+.bottom li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#single {
+    list-style: none;
+}
+
+.post input {
+    height: 55px;
+    width: 969px;
+}
+
+.posting button {
+    position: relative;
+    left: 935px;
+    bottom: 35px;
+}
+
+.post {
+    padding: 10px;
+    background-color: rgb(238,238,238);
+    width: 1000px;
+    height: 110px;
+}
+
+.bottom {
+    position: relative;
+    bottom: 250px;
+    background-color: rgb(238,238,238);
+}
+
+.bottom span {
+    position: relative;
+    top: 7px;
+    font-size: 12px;
+    color: rgb(108,108,108)
+}
+
+.posting p {
+    color: rgb(85,85,85);
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.posting p:hover {
+    text-decoration: underline;
+}
+
+#epic {
+    position: relative;
+    top: 5px;
+}
+
+#send_email:hover {
+    text-decoration: underline;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+}
+
+.timer img {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.no_posts {
+    color: rgb(154,110,0);
+    font-size: 13px;
+}

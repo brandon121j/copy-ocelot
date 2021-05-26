@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Populi - Digital Film Academy</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="nav_left">
+                <a href="#">Home</a>
+                <a href="#">Files</a>
+                <a href="#">Calendar</a>
+                <a href="#">Bookstore</a>
+                <a href="#">Library</a>
+            </div>
+            <div class="nav_right">
+                <img src="copy_ocelot3.png" alt="Digital Film Academy Search and Profile Picture">
+            </div>
+        </div>
+        <div class="header">
+            <div class="header_top">
+                <img src="copy_ocelot1.png" alt="Digital Film Academy Logo">
+                <h2>Digital Film Academy</h2>
+            </div>
+            <div class="header_bottom">
+                <h5>Home</h5>
+                <h5>My Profile</h5>
+                <h5>My Courses</h5>
+                <h5>Directory</h5>
+            </div>
+        </div>
+        <div class="hero_content">
+            <div class="pic">
+                <img src="copy_ocelot2.jpg" alt="Blank Picture Icon">
+                <div class="time">
+                    <div class="timer">
+                        <img src="copy_ocelot4.png">
+                        <span id="datetime"></span></p><p>local time</p>
+                        <script>
+                            var dt = new Date();
+                            document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+                        </script>
+                    </div>
+                </div>
+                <div class="email">
+                    <img id="epic" src="copy_ocelot5.png">
+                    <a href=# id="send_email">Send Email</a>
+                </div>
+            </div>
+            <div class="main_content">
+                <div class="different">
+                    <span><p>Online 6 days ago</p></span>
+                    <h2>Anthony DeRosa</h2>
+                    <p id="director">Director at Code Immersives</p>
+                    <div class="options">
+                        <p>Bulletin Board</p>
+                        <p>Info</p>
+                    </div>
+                </div>
+                <div class="main_container">
+                    <div class="post">
+                        <input type="textbox">
+                        <div class="posting">
+                            <p>Formatting guide</p>
+                            <button>Post</button>
+                        </div>
+                    </div>
+                    <p class="no_posts">There aren't any posts on Anthony DeRosa's bulletin board yet.</p>
+                </div>
+                <div class="main_container_right">
+                    <button>Follow Anthony DeRosa</button>
+                    <div class="following">
+                        <div class="following1">
+                            <p>0</p>
+                            <a href="#">Following</a>
+                        </div>
+                        <div class="following2">
+                            <p>0</p>
+                            <a href="#">Followers</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <ul>
+                    <li id="single">Terms of Service</li> <span>•</span>
+                    <li>Acceptable Use Policy</li> <span>•</span>
+                    <li>Support</li> <span>•</span>
+                    <li>System Status</li> <span>•</span>
+                    <li>Blog</li> <span>•</span>
+                    <li>Twitter</li> <span>•</span>
+                    <li>Facebook</li> <span>•</span>
+                    <li>Instagram</li> <span>•</span>
+                    <li>Youtube</li> <span>•</span>
+                    <li>Populi 2021</li> 
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

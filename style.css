@@ -154,7 +154,7 @@ body,html {
 .main_container_right {
     position: relative;
     left: 1050px;
-    bottom: 190px;
+    bottom: 160px;
 }
 
 .bottom ul {
@@ -245,4 +245,8 @@ body,html {
 .no_posts {
     color: rgb(154,110,0);
     font-size: 13px;
+}
+
+.nav_right img {
+    cursor: pointer;
 }
